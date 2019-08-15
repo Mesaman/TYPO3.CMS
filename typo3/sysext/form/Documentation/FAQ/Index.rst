@@ -134,6 +134,12 @@ EXT:form ships a datepicker form element. To unfold its full potential you
 should add jquery JavaScript files and jqueryUi JavaScript and CSS files to
 your frontend.
 
+.. _faq-date-picker-translation:
+
+How do I translate the dateformat of a form element value?
+==============================
+
+The date format within a form element value itself cannot be translated because it depends on the language which is set through your browser. See `properties.displayFormat <https://docs.typo3.org/c/typo3/cms-core/master/en-us/Changelog/9.3/Feature-82511-ExtFormAddHtml5DateElement.html>`_ for more information. The format can only be changed for the summary view, email finishers etc.
 
 .. _faq-user-registration:
 
@@ -165,7 +171,7 @@ honeypot. Read more :ref:`here<typo3.cms.form.prototypes.\<prototypeIdentifier>.
 
 .. _faq-form-element-default-value:
 
-How do I set a default value for my form element?
+How do I set a default value my form element?
 =================================================
 
 Most of the form elements support setting a default value (do not mix this
